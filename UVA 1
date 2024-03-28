@@ -1,6 +1,36 @@
-<strong>: Convierte su contenido a negrita
-<b>: Converte su contenido a negrita, pero no tiene una mplicación semántica de importancia o énfasis fuerte
-<em>: Convierte su contenido a cursiva
-<br>: Se utiliza para separar el contenido en diferentes líneas sin crear un nuevo parrafo
+<p>: Crea parrafos
+<strong>: Texto importante de la pagina
+<b>: Texto en negrita
+<i>: Texto en cursiva
+<u>: Texto subrayado
+<br>: Crea un salto de linea
+<blockquote>: Texto en formato de cita
+<a>: Agregar un link, se usa "href" especificar el URL(link) [<a href=""></a>]; y se puede utilizar para anclar elementos especificos en la misma pagina (href="#id-del-elemento")
+<link>: Enlaza archivos CSS
+<script>: Enlaza o escribe Javascript dentro del documento HTML
+<meta>: Características sobre la página
+<img>: Inserta una imagen
+<video>: Inserta un video
+<iframe>: Inserta contenido de otras paginas
+<audio>: Inserta un audio
 <ol>: Lista ordenada, para listas numericas
-<ul>: Lista desordenada, para listas sin orden
+<ul>: Lista desordenada
+<li>: Define los articulos de las listas
+<div>: Secciona o agrupa etiquetas
+<nav>: Crea el menu de navegacion
+<header>: Define la cabecera de la pagina
+<main>: Define el contenido central de la pagina
+<footer>: Define el pie de la pagina
+<span>: Similar a div, pero con funcionamiento inline
+<section>: Secciona o agrupa etiquetas que se conoce de antemano que se dividirán en varias subsecciones
+<article>: Cada article será una subsección de una etiqueta <section>. Una sección se divide en muchos articles
+<table>: Crea una tabla
+<tr>: Crea las filas
+<td>: Crea las columnas
+<th>: Crea el titula de cada columna 
+<col>: Especifica las propiedades de cada columna
+<form>: Crea un formulario
+<input>: Campo para introducir datos (hay varios tipos)
+<label>: El titulo del input
+<textarea>: Campo para introducir mucho texto
+<button>: Crea un boton
