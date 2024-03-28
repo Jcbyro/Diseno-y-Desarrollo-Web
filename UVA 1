@@ -1,0 +1,6 @@
+<strong>: Convierte su contenido a negrita
+<b>: Converte su contenido a negrita, pero no tiene una mplicación semántica de importancia o énfasis fuerte
+<em>: Convierte su contenido a cursiva
+<br>: Se utiliza para separar el contenido en diferentes líneas sin crear un nuevo parrafo
+<ol>: Lista ordenada, para listas numericas
+<ul>: Lista desordenada, para listas sin orden
