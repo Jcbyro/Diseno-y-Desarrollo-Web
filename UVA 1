@@ -16,11 +16,11 @@
 <ol>: Lista ordenada, para listas numericas
 <ul>: Lista desordenada
 <li>: Define los articulos de las listas
-<div>: Secciona o agrupa etiquetas
 <nav>: Crea el menu de navegacion
 <header>: Define la cabecera de la pagina
 <main>: Define el contenido central de la pagina
 <footer>: Define el pie de la pagina
+<div>: Secciona o agrupa etiquetas
 <span>: Similar a div, pero con funcionamiento inline
 <section>: Secciona o agrupa etiquetas que se conoce de antemano que se dividirán en varias subsecciones
 <article>: Cada article será una subsección de una etiqueta <section>. Una sección se divide en muchos articles
