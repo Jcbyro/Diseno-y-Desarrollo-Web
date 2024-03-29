@@ -1,0 +1,27 @@
+.Imperio {
+    background-color: red;
+    width: 400px;
+}
+
+#Darth_Vader {
+    font-size: 50px;
+}
+
+.Rebeldes {
+    background-color: blue;
+    width: 250px;
+}
+
+#Luke {
+    font-style: italic;
+}
+
+.Naves {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Soldados {
+    border-style: dashed;
+    letter-spacing: 5px;
+}

@@ -1,0 +1,85 @@
+Selectores: 
+    De identificador (ID): 
+        #rojo{
+            color: red;
+        }
+        <h2 id="rojo">Titulo</h2>
+        <h2>Otro titulo</h2>
+    De etiqueta:
+        em{
+            color: rgb(0, 255, 0);
+        }
+        <p>Hola a <em>todos</em></p>
+        <p>Chau a <em>todos</em></p>
+    De clase:
+        .azul{
+            color: #0000FF;
+        }
+        <p class="azul">parrafo</p>
+        <p>Otro parrafo</p>
+    Cascada, combinada o compuesta:
+        div p em{
+            color: red;
+        }
+        <div>
+            <p>Hola a <em>todos</em><p>
+        </div>
+        <p>Chau a <em>todos</em></p>
+
+El <style></style>: se pone dentro del head
+<link rel="stylesheet" href="CSS.css">: tambien dentro del head
+
+font-size: Tamaño del texto, se puede poner de manera numerica, pixeles, porcentajes, puntos, etc. La unidad de medida se debe poner pegada a su valor numerico sin dejar espacio
+font-weight: Peso de la fuente (normal o bold)
+font-style: Estilo de la fuente (normal o italic)
+font-variant: Variante (normal o Small-Caps)
+font-family: Estilo de lenguaje (Verdana, Arial, New Roman, Century Gothic)
+text-decoration: Tipo de subrayado (underline, line-through, overline, none)
+text-transform: Mayusculas/Minusculas (upppercase, lowercase, capitalize, none)
+text-align: Alineacion del texto (left, right, center, justify)
+text-indent: La tabulacion del texto (ej. Si pongo, 20px, la primera linea de cada parrafo se desplaza hacia la derecha 20 pixeles)
+line-height: El tamaño de espacio entre cada parrafo (el valor optimo es 1.3 veces (30%))
+color: Color del texto, se puede poner por su color en ingles, su valor hexadecimal o su rgb
+
+Los links son los unicos elementos de HTML que no heredan el CSS, se puede modificar para que si le afecte
+a: link{}: El vinculo a alguna pagina
+a: hover{}: El puntero del mouse esta encima de el
+a: active{}: Mientras el usuario mantiene el click
+a: visited{}: El vinculo que ya fue visitado
+
+Ej: a: link{
+        color: blue;
+    }
+    a: link: hover{
+        color: red;
+    }
+
+Las propiedades "margin, borden y padding" aceptan 1, 2 o 4 valores (separados por espacios); son llamadas shorthand
+1 solo valor: Aplica el mismo valor a los 4 lados
+2 valores: El primero afecta el top y botton. El segundo al left y right
+4 valores: Espezando desde el top, se aplican en todos lados en sentido de la agujas del reloj (top, right, bottom, left)
+Tambien existen propiedades con el nombre, ej. margin-top, estas solo aceptan un solo valor
+Ej.:
+p {padding: 20px;}  / 20 px en los 4 lados de la caja /
+h1 {margin: 10px 30px;}  / Arriba y abajo, 10px; izquierda y derecha, 30 px /
+div {padding: 10px 15px 0px 50px;}   / Arriba 10px, derecha 15px, abajo 0px, izquierda 50px /
+div {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+}
+
+border-color: El color del borde, su valor se puede aplicar de la misma forma que color
+border-width: El grosor del border, Valor numerico + unidad de medida
+border-style: Tipo de borde a aplicar, ej. solid, dashed, dotted, double, inset, outset, ridge, groove, none, hidden
+inset, outset, ridge, groove: (Hundido, salido, estriado, anclado 3D)
+Tambien se pueden unir, de modo, "border-left-width", "border-bottom-style"
+
+background-image: Archivo a usar como imagen de fondo, se aplica el valor url('ruta_al_archivo')
+background-repeat: Si la imagen se repite y como lo hace. Valores; [repeat], no-repeat, repeat-x, repeat-y, round, space, ...
+background-position: Recibe 2 valores de desplazamiento en x e y, separados por espacio, Ej. 0,0
+background-attachment: Si existe scroll en la pagina (la parte a la derecha de todas las paginas), determina si se mantiene fija o se mueve con el scroll. Valores; [scroll], fixed
+background: red; (aplica solo el color de fondo como background-color)
+background: url("foto.jpg"); (aplica la imagen como background-image)
+background: url("foto.jpg") no-repeat center center fixed green; (el orden de los valores es indistinto)
