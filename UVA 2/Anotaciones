@@ -83,3 +83,12 @@ background-attachment: Si existe scroll en la pagina (la parte a la derecha de t
 background: red; (aplica solo el color de fondo como background-color)
 background: url("foto.jpg"); (aplica la imagen como background-image)
 background: url("foto.jpg") no-repeat center center fixed green; (el orden de los valores es indistinto)
+
+&nbsp; es como <br>:
+&nbsp; Crea un espacio en blanco no rompible, es decir, un espacio que el navegador no ignorará al mostrar el contenido. Se usa comúnmente para crear espacios entre palabras o elementos que no deben ser comprimidos por el navegador. 
+
+<br> es una etiqueta de salto de línea que se utiliza para forzar un salto de línea en el texto. Cuando el navegador encuentra <br>, insertará un salto de línea en el contenido, lo que hace que el texto siguiente comience en una nueva línea.
+
+Usar multiples &nbsp; hace que se cree un espacion en blanco no rompible mas grande, no se puede usar (&nbsp*8)
+&quot; es poner "
+&quot;&quot; = ""
