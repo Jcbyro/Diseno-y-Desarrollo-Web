@@ -1,0 +1,1459 @@
+@font-face {
+    font-family: 'sourcesanspro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(https://design.penpot.app/fonts/sourcesanspro-regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'sourcesanspro';
+    font-style: italic;
+    font-weight: 400;
+    font-display: block;
+    src: url(https://design.penpot.app/fonts/sourcesanspro-italic.woff) format('woff');
+}
+@font-face {
+    font-family: 'sourcesanspro';
+    font-style: normal;
+    font-weight: bold;
+    font-display: block;
+    src: url(https://design.penpot.app/fonts/sourcesanspro-bold.woff) format('woff');
+}
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+    min-width: 100%;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.text-node { background-clip: text !important; -webkit-background-clip: text !important; }
+
+/* Board */
+.board-420842ab56b3 {
+    position: relative;
+    width: 1200px;
+    height: 419px;
+    background: #FFFFFF;
+    overflow: hidden;
+    z-index: 0;
+}
+
+/* Modo celular */
+.modo-celul-421d616e90b2 {
+    position: absolute;
+    left: 525px;
+    top: 388px;
+    width: 140px;
+    height: 24px;
+}
+.modo-celul-421d616e90b2 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.modo-celul-421d616e90b2 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.modo-celul-421d616e90b2 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.modo-celul-421d616e90b2 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Path */
+.path-4218095dc10e > svg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translate(0px,0px);
+}
+.path-4218095dc10e {
+    position: absolute;
+    left: 901px;
+    top: 85px;
+    width: 0.01px;
+    height: 295px;
+}
+
+/* Path */
+.path-4217ff873d2f > svg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translate(0px,0px);
+}
+.path-4217ff873d2f {
+    position: absolute;
+    left: 591px;
+    top: 85px;
+    width: 0.01px;
+    height: 295px;
+}
+
+/* Path */
+.path-4217da4103ce > svg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translate(0px,0px);
+}
+.path-4217da4103ce {
+    position: absolute;
+    left: 296px;
+    top: 85px;
+    width: 0.01px;
+    height: 295px;
+}
+
+/* Path */
+.path-421d4e610048 > svg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translate(0px,0px);
+}
+.path-421d4e610048 {
+    position: absolute;
+    left: -1px;
+    top: 379px;
+    width: 1201px;
+    height: 0.01px;
+}
+
+/* Path */
+.path-42179cebf15a > svg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translate(0px,0px);
+}
+.path-42179cebf15a {
+    position: absolute;
+    left: 0px;
+    top: 146px;
+    width: 1201px;
+    height: 0.01px;
+}
+
+/* Los servicios que esta compañia ofrece son pizzerias antendidas por humanos difrazados de animatronicos alrededor de todo el mundo. */
+.los-servic-421775a61b60 {
+    position: absolute;
+    left: 306px;
+    top: 166px;
+    width: 272px;
+    height: 72px;
+}
+.los-servic-421775a61b60 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.los-servic-421775a61b60 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.los-servic-421775a61b60 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.los-servic-421775a61b60 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* La mision de esta empresa es mantener entretenidos a jovenes y adultos por todo el mundo con animatronicos.
+
+La vision de esta empresa es ser capaz de crea animatronicos con la capacidad de moverse a voluntad propia.
+
+Los valores de esta empresa se basan en los animatronicos y la */
+.la-mision-421763e6b108 {
+    position: absolute;
+    left: 27px;
+    top: 165px;
+    width: 253px;
+    height: 180px;
+}
+.la-mision-421763e6b108 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.la-mision-421763e6b108 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.la-mision-421763e6b108 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-421763e6b108 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.la-mision-421763e6b108 .root-0-paragraph-set-0-paragraph-1 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-421763e6b108 .root-0-paragraph-set-0-paragraph-1-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.la-mision-421763e6b108 .root-0-paragraph-set-0-paragraph-2 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-421763e6b108 .root-0-paragraph-set-0-paragraph-2-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.la-mision-421763e6b108 .root-0-paragraph-set-0-paragraph-3 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-421763e6b108 .root-0-paragraph-set-0-paragraph-3-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.la-mision-421763e6b108 .root-0-paragraph-set-0-paragraph-4 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-421763e6b108 .root-0-paragraph-set-0-paragraph-4-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Mision, Vision y Valores */
+.mision-vi-4208ca1cdb36 {
+    position: absolute;
+    left: 46px;
+    top: 110px;
+    width: 196px;
+    height: 23px;
+}
+.mision-vi-4208ca1cdb36 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.mision-vi-4208ca1cdb36 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.mision-vi-4208ca1cdb36 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.mision-vi-4208ca1cdb36 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Afton Robotics */
+.afton-robo-420893288623 {
+    position: absolute;
+    left: 456px;
+    top: 9px;
+    width: 279px;
+    height: 43px;
+}
+.afton-robo-420893288623 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.afton-robo-420893288623 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.afton-robo-420893288623 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.afton-robo-420893288623 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 40px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Propuesta Comercial */
+.propuesta-4208e3b0b3dd {
+    position: absolute;
+    left: 660px;
+    top: 110px;
+    width: 180px;
+    height: 23px;
+}
+.propuesta-4208e3b0b3dd .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.propuesta-4208e3b0b3dd .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.propuesta-4208e3b0b3dd .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.propuesta-4208e3b0b3dd .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Servicios Ofrecidos */
+.servicios-42090072c813 {
+    position: absolute;
+    left: 363px;
+    top: 110px;
+    width: 161px;
+    height: 23px;
+}
+.servicios-42090072c813 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.servicios-42090072c813 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.servicios-42090072c813 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.servicios-42090072c813 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Información de Contacto */
+.informaci-420913807e35 {
+    position: absolute;
+    left: 946px;
+    top: 110px;
+    width: 209px;
+    height: 23px;
+}
+.informaci-420913807e35 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.informaci-420913807e35 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.informaci-420913807e35 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.informaci-420913807e35 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Actualmente monopolizados los animatronicos, pero necesitamos dinero para poder hacer que los animatronicos se muevan por su cuenta, asi que compartiremos esa nueva tecnologia por un respectivo precio ni bien se logre obtener. */
+.actualment-4217b468a2df {
+    position: absolute;
+    left: 601px;
+    top: 166px;
+    width: 289px;
+    height: 108px;
+}
+.actualment-4217b468a2df .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.actualment-4217b468a2df .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.actualment-4217b468a2df .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.actualment-4217b468a2df .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Nr. Contacto: +1 (542) 452-1208
+
+Localización: Murature 242, La Union
+
+Email: CarlosUni@icloud.com */
+.nr-contac-4217ca9b00ee {
+    position: absolute;
+    left: 918px;
+    top: 167px;
+    width: 230px;
+    height: 89px;
+}
+.nr-contac-4217ca9b00ee .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-0-text-1 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-1 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-1-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-2 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+    .nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-2-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-2-text-1 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-2-text-2 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-2-text-3 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-3 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-3-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-4 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-4-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-4-text-1 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* register */
+.register-421d386b7b45 {
+    position: relative;
+    width: 414px;
+    height: 736px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+/* Nr. Contacto: +1 (542) 452-1208
+
+Localización: Murature 242, La Union
+
+Email: CarlosUni@icloud.com */
+.nr-contac-421ef453adaf {
+    position: absolute;
+    left: 10px;
+    top: 579px;
+    width: 377px;
+    height: 90px;
+}
+.nr-contac-421ef453adaf .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-0-text-1 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-1 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-1-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-2 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-2-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-2-text-1 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-2-text-2 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-2-text-3 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-3 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-3-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-4 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-4-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-4-text-1 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Path */
+.path-421ee15632f9 > svg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translate(0px,0px);
+}
+.path-421ee15632f9 {
+    position: absolute;
+    left: 0px;
+    top: 572px;
+    width: 565px;
+    height: 120px;
+}
+
+/* Propuesta Comercial */
+.propuesta-421ebd50259f {
+    position: absolute;
+    left: 111px;
+    top: 399px;
+    width: 180px;
+    height: 25px;
+}
+.propuesta-421ebd50259f .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.propuesta-421ebd50259f .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.propuesta-421ebd50259f .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.propuesta-421ebd50259f .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Actualmente monopolizados los animatronicos, pero necesitamos dinero para poder hacer que los animatronicos se muevan por su cuenta, asi que compartiremos esa nueva tecnologia por un respectivo precio ni bien se logre obtener. */
+.actualment-421ebd50259e {
+    position: absolute;
+    left: 11px;
+    top: 435px;
+    width: 377px;
+    height: 90px;
+}
+.actualment-421ebd50259e .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.actualment-421ebd50259e .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.actualment-421ebd50259e .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.actualment-421ebd50259e .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Los servicios que esta compañia ofrece son pizzerias antendidas por humanos difrazados de animatronicos alrededor de todo el mundo. */
+.los-servic-421e8a8e485c {
+    position: absolute;
+    left: 12px;
+    top: 330px;
+    width: 377px;
+    height: 54px;
+}
+.los-servic-421e8a8e485c .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.los-servic-421e8a8e485c .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.los-servic-421e8a8e485c .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.los-servic-421e8a8e485c .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Servicios Ofrecidos */
+.servicios-421e8a8e485b {
+    position: absolute;
+    left: 118px;
+    top: 292px;
+    width: 161px;
+    height: 23px;
+}
+.servicios-421e8a8e485b .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.servicios-421e8a8e485b .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.servicios-421e8a8e485b .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.servicios-421e8a8e485b .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Afton Robotics */
+.afton-robo-421dd1db44d6 {
+    position: absolute;
+    left: 70px;
+    top: 16px;
+    width: 273px;
+    height: 43px;
+}
+.afton-robo-421dd1db44d6 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.afton-robo-421dd1db44d6 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.afton-robo-421dd1db44d6 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.afton-robo-421dd1db44d6 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 40px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Modo computadora */
+.modo-compu-421d9265115a {
+    position: absolute;
+    left: 112px;
+    top: 701px;
+    width: 189px;
+    height: 24px;
+}
+.modo-compu-421d9265115a .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.modo-compu-421d9265115a .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.modo-compu-421d9265115a .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.modo-compu-421d9265115a .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* La mision de esta empresa es mantener entretenidos a jovenes y adultos por todo el mundo con animatronicos.
+
+La vision de esta empresa es ser capaz de crea animatronicos con la capacidad de moverse a voluntad propia.
+
+Los valores de esta empresa se basan en los animatronicos y la */
+.la-mision-421e6c42cb96 {
+    position: absolute;
+    left: 10px;
+    top: 140px;
+    width: 389px;
+    height: 144px;
+}
+.la-mision-421e6c42cb96 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-1 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-1-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-2 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-2-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-3 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-3-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-4 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-4-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Mision, Vision y Valores */
+.mision-vi-421e6c42cb95 {
+    position: absolute;
+    left: 101px;
+    top: 98px;
+    width: 196px;
+    height: 23px;
+}
+.mision-vi-421e6c42cb95 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.mision-vi-421e6c42cb95 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.mision-vi-421e6c42cb95 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.mision-vi-421e6c42cb95 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Información de Contacto */
+.informaci-421f83986c4d {
+    position: absolute;
+    left: 93px;
+    top: 539px;
+    width: 204px;
+    height: 23px;
+}
+.informaci-421f83986c4d .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.informaci-421f83986c4d .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.informaci-421f83986c4d .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.informaci-421f83986c4d .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
