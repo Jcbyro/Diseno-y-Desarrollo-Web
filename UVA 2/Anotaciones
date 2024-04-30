@@ -92,3 +92,6 @@ background: url("foto.jpg") no-repeat center center fixed green; (el orden de lo
 Usar multiples &nbsp; hace que se cree un espacion en blanco no rompible mas grande, no se puede usar (&nbsp*8)
 &quot; es poner "
 &quot;&quot; = ""
+
+flex-flox es flex-direction y flex-wrap juntos
+vh: viewport height, unidad de medida relativa a la altura de la ventana grafica, 100vh es el 100% de la altura
