@@ -95,3 +95,21 @@ Usar multiples &nbsp; hace que se cree un espacion en blanco no rompible mas gra
 
 flex-flox es flex-direction y flex-wrap juntos
 vh: viewport height, unidad de medida relativa a la altura de la ventana grafica, 100vh es el 100% de la altura
+
+display: inline. Al aplicarla a una etiqueta de bloque, pasa a ser de linea
+display: block. Al aplicarla a una etiqueta de linea, pasa a ser de bloque
+display: inline-block. Es la fucion de las 2 anteriores, no existe ningun elemento que naturalmente tenga esto.
+Las cajas funcionan inline, una al lado de la otra, ocupando el ancho y el alto que necesiten de acuerdo a su contenido
+Pero conservan las mejores características de las cajas de bloque: aplican width, height, padding, margin y border en los 4 costados, empujando a los elementos circundantes
+No fusionan márgenes verticales entre ellas (cuando no entran en línea por tamaño y una baja a la línea inferior)
+
+Al tener 2 inline-block una al lado de la otra cada una de distinto tamaño, se puede alinear verticalmente usando vertical-align. Los valores de esa propiedad son:
+    baseline: Valor por defecto, el ultimo elemento de cada caja se apoya sobre la linea, distintos tamaños de padding
+significa que la parte inferior de las cajas queda desfazada
+    bottom: Alinea las partes inferiores de las cajas
+    top: Alinea las partes superiores de las cajas
+    middle: Alinea las cajas al centro dentro del alto de linea
+Si se quiere eliminar el espacio en inline-block se utiliza en el HTML: <article>...</article><article>...</article>
+float: Al "flotar", un elementos deja de pertenecer al flujo normal/natural del documento, deja de ser una caja en linea o de bloque y pasa a ser un elemento flotado con sus propias caracteristicas
+
+////Continuar despues del parcial en Propiedad Float Pagina 5

@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'sourcesanspro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(https://design.penpot.app/fonts/sourcesanspro-regular.woff) format('woff');
+}
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+    min-width: 100%;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.text-node { background-clip: text !important; -webkit-background-clip: text !important; }
+
+/* Board */
+.board-48f3c9a4c7e8 {
+    position: relative;
+    width: 610px;
+    height: 330px;
+    background: #FFFFFF;
+    overflow: hidden;
+    z-index: 0;
+}
+
+/* Juan Byro */
+.juan-byro-48f4f52eba5c {
+    position: absolute;
+    left: 413px;
+    top: 239px;
+    width: 101px;
+    height: 32px;
+}
+.juan-byro-48f4f52eba5c .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.juan-byro-48f4f52eba5c .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.juan-byro-48f4f52eba5c .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.juan-byro-48f4f52eba5c .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Link al sitio de servicios profecionales */
+.link-al-si-48d9b4fc9ce5 {
+    position: absolute;
+    left: 76px;
+    top: 109px;
+    width: 210px;
+    height: 56px;
+}
+.link-al-si-48d9b4fc9ce5 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.link-al-si-48d9b4fc9ce5 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.link-al-si-48d9b4fc9ce5 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.link-al-si-48d9b4fc9ce5 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Link al prototipo */
+.link-al-pr-48d9d13e7f93 {
+    position: absolute;
+    left: 76px;
+    top: 204px;
+    width: 243px;
+    height: 68px;
+}
+.link-al-pr-48d9d13e7f93 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.link-al-pr-48d9d13e7f93 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.link-al-pr-48d9d13e7f93 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.link-al-pr-48d9d13e7f93 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* 3 */
+.c-3-48dab543ba29 {
+    position: absolute;
+    left: 389px;
+    top: 104px;
+    width: 136px;
+    height: 87px;
+    background: url(https://design.penpot.app/assets/by-file-media-id/68a1c0e6-b27c-807b-8004-48dab3b9db70) no-repeat center center / cover;
+    border-radius: 0px;
+}
+
+/* Ficha personal */
+.ficha-pers-48d858a9ff5d {
+    position: absolute;
+    left: 72px;
+    top: 35px;
+    width: 132px;
+    height: 25px;
+}
+.ficha-pers-48d858a9ff5d .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.ficha-pers-48d858a9ff5d .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.ficha-pers-48d858a9ff5d .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.ficha-pers-48d858a9ff5d .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Rectangle */
+.rectangle-48f75c343571 {
+    position: absolute;
+    left: 355px;
+    top: 80px;
+    width: 223px;
+    height: 222px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle-48f3e3aeedfb {
+    position: absolute;
+    left: 40px;
+    top: 80px;
+    width: 318px;
+    height: 222px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 0px;
+}
