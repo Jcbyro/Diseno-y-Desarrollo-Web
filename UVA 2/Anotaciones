@@ -96,20 +96,53 @@ Usar multiples &nbsp; hace que se cree un espacion en blanco no rompible mas gra
 flex-flox es flex-direction y flex-wrap juntos
 vh: viewport height, unidad de medida relativa a la altura de la ventana grafica, 100vh es el 100% de la altura
 
-display: inline. Al aplicarla a una etiqueta de bloque, pasa a ser de linea
-display: block. Al aplicarla a una etiqueta de linea, pasa a ser de bloque
-display: inline-block. Es la fucion de las 2 anteriores, no existe ningun elemento que naturalmente tenga esto.
-Las cajas funcionan inline, una al lado de la otra, ocupando el ancho y el alto que necesiten de acuerdo a su contenido
-Pero conservan las mejores características de las cajas de bloque: aplican width, height, padding, margin y border en los 4 costados, empujando a los elementos circundantes
-No fusionan márgenes verticales entre ellas (cuando no entran en línea por tamaño y una baja a la línea inferior)
+CSS Display:
+display: inline. Transforma un bloque en linea, no inicia una nueva linea, no puede modificar width y height
+display: block. Tranforma una linea en bloque, inicia una nueva linea, puede modificar width y height
+display: inline-block. Combina las 2 anteriores, es una linea que puede modificar width y height
 
-Al tener 2 inline-block una al lado de la otra cada una de distinto tamaño, se puede alinear verticalmente usando vertical-align. Los valores de esa propiedad son:
-    baseline: Valor por defecto, el ultimo elemento de cada caja se apoya sobre la linea, distintos tamaños de padding
-significa que la parte inferior de las cajas queda desfazada
+No se puede fucionar 2 margenes verticales, la unica forma es con vertical-align al tener 2 inline-block
+Los valores de vertical-align son:
+    baseline: Por defecto, el ultimo elemento de cada caja se apoya sobre la linea
     bottom: Alinea las partes inferiores de las cajas
     top: Alinea las partes superiores de las cajas
     middle: Alinea las cajas al centro dentro del alto de linea
-Si se quiere eliminar el espacio en inline-block se utiliza en el HTML: <article>...</article><article>...</article>
-float: Al "flotar", un elementos deja de pertenecer al flujo normal/natural del documento, deja de ser una caja en linea o de bloque y pasa a ser un elemento flotado con sus propias caracteristicas
 
-////Continuar despues del parcial en Propiedad Float Pagina 5
+Por defecto, las cajas inline-block tienen por defecto un espacio entre ellas, para eliminarlo se utiliza
+en el HTML: <article>...</article><article>...</article>
+
+display: none. Sirve para ocultar un elemento
+display: flex. Establece un contenido flexible para los elementos hijos, permite un diseño mas flexible y dinamico en términos de alineación, distribución y reorganización de los elementos dentro del contenedor
+display: grid. Establece un contenedor de cuadriculas que permite un diseño más complejo mediante la definición de filas y columnas, y la colocación de elementos en estas celdas
+
+CSS Float:
+float: Un elemento deja de pertenecer al flujo normal/natural del documento, transformandose de una caja de linea/bloque a un elemento flotanto con sus propias caracteristicas; esto permite que otros elementos fluyan alrededor de el
+Valores de float: 
+float: left;. EL elemento flota a la izquierda
+right. El elemento flota a la derecha
+none. El elemento no flota y se muestra en el flujo normal de la pagina
+inherit.  El elemento hijo hereda el float de su elemento padre
+
+clear: Especifica que debe pasar a un elemento que este al lado de un elemento flotante. Puede tener 5 valores:
+clear: none;. Es el defaut, el elemento no es empujado debajo del elemento flotante
+left. El elemento se empuja debajo de los elementos flotante a la izquierda
+right. El elemento se empuja debajo de los elementos flotante a la derecha
+both. El elemento se empuja debajo de los elementos flotante a la izquierda y derecha
+inherit. El elemento hijo hereda el clear de su elemento padre
+
+Clearfix Hak: 
+Si un elemento flotante es mas grande que los elementos contenidos, no se vera lindo, se puede arreglar usando: 
+.clearfix {
+    overflow: auto;
+}
+La version mas moderna y util es: 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+box-sizing. Define como el width y height es calculado, podria incluir padding y borders
+overflow-x. Especifica que hacer con los ejes left/right si el contenido se desborda (overflow)
+overflow-y. Especifica que hacer con los ejes top/bottom si el contenido se desborda (overflow)
+

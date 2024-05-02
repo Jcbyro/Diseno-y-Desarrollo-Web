@@ -37,6 +37,17 @@ body {
     z-index: 0;
 }
 
+/* A */
+.a-49d26d5723ca {
+    position: absolute;
+    left: 436px;
+    top: 96px;
+    width: 104px;
+    height: 130px;
+    background: url(https://design.penpot.app/assets/by-file-media-id/761002ba-63cd-80f4-8004-49d26cba58d5) no-repeat center center / cover;
+    border-radius: 0px;
+}
+
 /* Juan Byro */
 .juan-byro-48f4f52eba5c {
     position: absolute;
@@ -166,21 +177,10 @@ body {
     font-weight: 400;
 }
 
-/* 3 */
-.c-3-48dab543ba29 {
-    position: absolute;
-    left: 389px;
-    top: 104px;
-    width: 136px;
-    height: 87px;
-    background: url(https://design.penpot.app/assets/by-file-media-id/68a1c0e6-b27c-807b-8004-48dab3b9db70) no-repeat center center / cover;
-    border-radius: 0px;
-}
-
 /* Ficha personal */
 .ficha-pers-48d858a9ff5d {
     position: absolute;
-    left: 72px;
+    left: 239px;
     top: 35px;
     width: 132px;
     height: 25px;
