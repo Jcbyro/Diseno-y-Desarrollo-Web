@@ -1,22 +1,27 @@
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
 /* Estilos para pantallas de computadora */
-@media only screen and (max-width: 600px) {
+@media (min-width: 991px) {
     /* Mostrar el HTML de Compu */
-    #vision-computadora {
+    .vision-computadora {
         display: block;
     }
     /* Ocultar el HTML de Celu */
-    #vision-celular {
+    .vision-celular {
         display: none;
     }
 }
 /* Estilos para pantallas de celular */
-@media only screen and (min-width: 600px) {
+@media (max-width: 767px) {
     /* Mostrar el HTML de Celu */
-    #vision-celular {
+    .vision-celular {
         display: block;
     }
     /* Ocultar el HTML de Compu */
-    #vision-computadora {
+    .vision-computadora {
         display: none;
     }
 }
@@ -451,9 +456,9 @@ Email: CarlosUni@icloud.com */
 /* Titulos */
 .titulos-4a70600b001d {
     position: absolute;
-    left: 46px;
+    left: 50px;
     top: 110px;
-    width: 1109px;
+    width: 1097px;
     height: 23px;
 }
 
@@ -503,7 +508,7 @@ Email: CarlosUni@icloud.com */
 /* Propuesta Comercial */
 .propuesta-4208e3b0b3dd {
     position: absolute;
-    left: 614px;
+    left: 598px;
     top: 0px;
     width: 180px;
     height: 23px;
@@ -546,7 +551,7 @@ Email: CarlosUni@icloud.com */
 /* Servicios Ofrecidos */
 .servicios-42090072c813 {
     position: absolute;
-    left: 317px;
+    left: 308px;
     top: 0px;
     width: 161px;
     height: 23px;
@@ -589,7 +594,7 @@ Email: CarlosUni@icloud.com */
 /* Informacion de Contacto */
 .informacio-420913807e35 {
     position: absolute;
-    left: 900px;
+    left: 888px;
     top: 0px;
     width: 209px;
     height: 23px;
@@ -690,9 +695,21 @@ Email: CarlosUni@icloud.com */
 .rectangulo-4a70a2d10ead {
     position: absolute;
     left: 18px;
-    top: 150px;
+    top: 140px;
     width: 1155px;
-    height: 239px;
+    height: 243px;
+}
+
+/* Rectangle */
+.rectangle-4b1cb120bc44 {
+    position: absolute;
+    left: 0px;
+    top: 7px;
+    width: 261px;
+    height: 236px;
+    background: #FCFCFF;
+    border: 1px solid #000000;
+    border-radius: 0px;
 }
 
 /* Rectangle */
@@ -701,7 +718,7 @@ Email: CarlosUni@icloud.com */
     left: 894px;
     top: 0px;
     width: 261px;
-    height: 237px;
+    height: 243px;
     background: #FCFCFF;
     border: 1px solid #000000;
     border-radius: 0px;
@@ -711,34 +728,19 @@ Email: CarlosUni@icloud.com */
 .rectangle-49db50334dc5 {
     position: absolute;
     left: 591px;
-    top: 0px;
+    top: 8px;
     width: 261px;
-    height: 237px;
+    height: 235px;
     background: #FCFCFF;
     border: 1px solid #000000;
     border-radius: 0px;
 }
 
 /* Rectangle */
-.rectangle-4a700217cdd7 > svg {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    transform: translate(0px,0px);
-}
-.rectangle-4a700217cdd7 {
-    position: absolute;
-    left: 0px;
-    top: 2px;
-    width: 261px;
-    height: 237px;
-}
-
-/* Rectangle */
 .rectangle-49dae3ff36da {
     position: absolute;
     left: 290px;
-    top: 0px;
+    top: 6px;
     width: 261px;
     height: 237px;
     background: #FCFCFF;
@@ -1216,59 +1218,6 @@ Los valores de esta empresa se basan en los animatronicos y la */
     font-weight: 400;
 }
 
-/* Rectangulos Titulos */
-.rectangulo-4a6fbcb7f403 {
-    position: absolute;
-    left: 10px;
-    top: 76px;
-    width: 389px;
-    height: 487px;
-}
-
-/* Rectangle */
-.rectangle-49f90f5ee49f {
-    position: absolute;
-    left: 0px;
-    top: 454px;
-    width: 389px;
-    height: 33px;
-    background: #34345C;
-    border-radius: 0px;
-}
-
-/* Rectangle */
-.rectangle-49f90a5c64c0 {
-    position: absolute;
-    left: 0px;
-    top: 301px;
-    width: 389px;
-    height: 33px;
-    background: #34345C;
-    border-radius: 0px;
-}
-
-/* Rectangle */
-.rectangle-49f9005aefe8 {
-    position: absolute;
-    left: 0px;
-    top: 191px;
-    width: 389px;
-    height: 33px;
-    background: #34345C;
-    border-radius: 0px;
-}
-
-/* Rectangle */
-.rectangle-49f859d42e4e {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 389px;
-    height: 33px;
-    background: #34345C;
-    border-radius: 0px;
-}
-
 /* Titulos */
 .titulos-4a70e82a02b5 {
     position: absolute;
@@ -1448,6 +1397,59 @@ Los valores de esta empresa se basan en los animatronicos y la */
     font-family: "sourcesanspro";
     font-style: italic;
     font-weight: 400;
+}
+
+/* Rectangulos Titulos */
+.rectangulo-4a6fbcb7f403 {
+    position: absolute;
+    left: 10px;
+    top: 76px;
+    width: 389px;
+    height: 487px;
+}
+
+/* Rectangle */
+.rectangle-49f90f5ee49f {
+    position: absolute;
+    left: 0px;
+    top: 454px;
+    width: 389px;
+    height: 33px;
+    background: #34345C;
+    border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle-49f90a5c64c0 {
+    position: absolute;
+    left: 0px;
+    top: 301px;
+    width: 389px;
+    height: 33px;
+    background: #34345C;
+    border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle-49f9005aefe8 {
+    position: absolute;
+    left: 0px;
+    top: 191px;
+    width: 389px;
+    height: 33px;
+    background: #34345C;
+    border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle-49f859d42e4e {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 389px;
+    height: 33px;
+    background: #34345C;
+    border-radius: 0px;
 }
 
 /* Afton Robotics */
