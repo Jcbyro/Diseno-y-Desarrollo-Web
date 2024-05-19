@@ -1,0 +1,134 @@
+Dentro de head: 
+<script type="text/javascript" src="Nombre_del_archivo.js"></script> <!-- Para incluir js -->
+O, dentro de body: 
+<script>
+    function mi_funcion() {
+        document.getElementById("my_funcion").innerHTML = "Ejemplo de mi funcion"
+    }
+</script>
+
+Tipos de datos: "Numericos", "Strings", "Booleanos", "Null", "Undefined"
+
+Variables: Se utiliza para almacenar valores en memoria a travez del uso de variables (Son la primera palabra)
+var nombre = 'dan';
+let apellido = 'abramov';
+const cuenta = '@garearon'
+
+Constantes: Es la palabra "const", este no puede cambiar la refencia con la que fueron inicializadas
+const PI = 3.141593;
+alert(PI > 3.0);
+
+Operadores: Los operadores matematicos:
+Suma: +
+Resta: -
+Multiplicacion: *
+Division: /
+Resto: %
+Comentarios de una linea: //
+Comentarios de varias lineas: /* */
+
+Strings: 
+var nombre = "Juan";
+var apellido = "Perez";
+
+var nombreCompleto = nombre + apellido;
+/ Para que tenga el nombre y apellido por separado se pone: "var nombreCompleto = nombre + " " + apellido;" /
+
+console.log(nombre);
+console.log(apellido);
+console.log(nombreCompleto);
+console.log("Mi nombre es " + nombreCompleto);
+
+    Console:
+"Juan"
+"Perez"
+"JuanPerez"
+"Mi nombre es JuanPerez" 
+
+Funciones: Estas son:
+alert() -> alert("Hola mundo")
+console.log() -> console.log("Hola mundo")
+prompt() -> prompt("Ingrese su nombre: ")
+
+///////////////////////////////////////////////////////////////////Mirar DOM en Brightspace: No puedo replicarlo aca////////////////////////////////////////////////////////////////////////////
+
+<!--------------------------------------- JavaScript: Eventos --------------------------------------->
+Ej. 1:
+Primero selecciona el boton con query selector y le agrega un evento con addEventListener
+addEventListener lleva 2 argumentos: el nombre del evento y la funcion que debe ejecutar
+
+JavaScript:
+document.querySelector("button").addEventListener("click", function(){
+    console.log("Alguien hizo click en el boton!")
+})
+
+Ej. 2:
+HTML:
+<button>Haz click!</button>
+<p>Nadie me ha clickeado aun</p>
+JavaScript:
+var boton =
+document.querySelector("button")
+var parrafo = document.querySelector("p")
+boton.addEventListener("click", function(){
+    parrafo.textContent = "Alguien hizo click!"
+})
+
+Ej. 3:
+JavaScript:
+var boton = document.querySelector("button")
+var parrafo = document.querySelector("p")
+// Esta vez definimos la funcion fuera del evento y la llamamos cambiarTexto
+var cambiarTexto = function(){
+    parrafo.textContent = "Alguien hizo click!"
+}
+// En el callback pasamos directamente el nombre de la funcion cambiarTexto
+boton.addEventListener("click", cambiarTexto)
+
+<!-- this -->
+Funcion "this":
+En el contexto de un objeto: LLama a una funcion como un objeto
+Ej.:
+const persona = {
+    nombre: 'Juan',
+    saludar: function() {
+        console.log(`Hola, mi nombre es ${this.nombre}`);
+    }
+};
+persona.saludar(); // this se refiere al objeto 'persona'
+
+En el contexto global: Se refiere al objeto global ('windows' en navegadores web)
+Ej.:
+function mostrarThis() {
+    console.log(this);
+}
+mostrarThis(); // this se refiere al objeto global (window en el navegador)
+
+En una funcion normal: Depende de como se llama, si se llama como un metodo de un objeto, "this" es el objeto; si es llamado como una funcion independiente, entonces "this" es el objeto global
+
+En una funcion flecha: No poseen su propio "this", heredan el "this" del contexto del que fueron definidas
+Ej.:
+const persona = {
+    nombre: 'Juan',
+    saludar: function() {
+        console.log(`Hola, mi nombre es ${this.nombre}`);
+    }
+};
+document.getElementById('greetButton').addEventListener('click', persona.saludar.bind(persona)); 
+// En este caso, `this` se refiere al elemento HTML que recibió el evento, no al objeto 'persona'
+// El .bind(persona) fue puesto para fijar el valor de "this", bind hace esa fijacion
+<!-- Termina 'this' -->
+
+infoEvent: Siempre que se utilizaba el HTML, se creaba un JavaScript con todo tipo de informacion, se puede capturar la informacion como argumento utilizando la funcion "callback"
+Ej. 1:
+// tip: document.body es una forma mas rapida de seleccionar el body sin querySelector
+document.body.addEventListener("click", function(e){
+    console.log(e)
+})
+// El "e" es el evento, el infoEvent
+
+Ej. 2:
+// Si posees pocos elementos HTMLs, el body no puede ocupar todo el alto de la pantalla
+document.body.addEventListener("click", function(e){
+    console.log("El mouse esta en X: " + e.clientX + "Y: " + e.clientY)
+})
